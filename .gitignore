@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+
+# Raw camera originals and any vendor/supplier documents (packing lists,
+# invoices) that may carry personal or shipping info - keep only the
+# published, reviewed derivatives (compressed photos, extracted BOM tables)
+# in git.
+*/img/raw/
+*/bom/*.pdf
