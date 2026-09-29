@@ -1,0 +1,24 @@
+# Line-ending and encoding policy.
+#
+# This repository lives on a file share used from both Windows and macOS, and
+# is edited by more than one person and more than one agent. Without explicit
+# rules, `core.autocrlf` differs per machine and every checkout produces
+# whole-file diffs that bury the real change.
+#
+# Rule: LF in the repository, LF in the working tree, everywhere.
+#
+# This repository is public, so the cost of getting it wrong is higher than
+# noise: a whole-file reformat pushed to GitHub is visible forever, and it
+# hides the one-line change it was carrying.
+
+* text=auto eol=lf
+
+*.md    text eol=lf
+*.txt   text eol=lf
+
+# Binary assets - photos
+*.pdf   binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
