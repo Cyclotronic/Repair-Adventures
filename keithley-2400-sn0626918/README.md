@@ -1,8 +1,8 @@
-<!-- Author: Cyclotron. Draft unit entry for xdevs.com/fix/kei2400pp/. Unit number assumes the page currently ends at unit 7. -->
+<!-- Author: Cyclotron. Unit entry for xdevs.com/fix/kei2400pp/. -->
 
 ## Diagnostics and repair for unit 8, Model 2400, S/N 0626918, Firmware C33
 
-*Contributed by Cyclotron.*
+*Contributed by Cyclotron. Published on xDevs.com at <https://xdevs.com/fix/kei2400pp/#diagu8>.*
 
 <p style="text-align:center;"><a href="img/board_orientation.jpg"><img alt="Analog board with the three repaired faults marked" src="img/board_orientation_1.jpg" /></a></p>
 
@@ -279,3 +279,7 @@ INITCAL was the only command I used to write anything. Everything else was read 
 | None | U660, U661 (AD7849), U221, U227 (AMP03) and U500 (AD847) replaced in November 2025 on suspicion | Not faulty. Amplifiers left in sockets |
 
 The 2400 now sources and measures within specification on every range, and passed the overnight soak.
+
+### Thanks to xDevs.com
+
+Most of what let me repair this unit came from pages the xDevs.com team wrote and kept online: the repair and calibration notes on the Keithley SourceMeters, the photos and measurements from earlier units, and the diagnostic procedures written up in enough detail to repeat. Ilya and the team have spent years documenting, restoring and repairing test equipment and publishing the results for anyone to use, and that record is a large part of why these instruments are still repairable. Thank you.
