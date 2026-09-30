@@ -8,7 +8,7 @@ full-resolution photos.
 | Instrument | Serial | What was wrong | Published |
 | --- | --- | --- | --- |
 | [Keithley 2400 SourceMeter](keithley-2400-sn0626918/) | 0626918 | Output stuck at -238 V with output off, Q229 gate leakage, U222 input damage, U609 solder whisker, bad 20 V adjustment constants | Submitted to [xDevs.com Keithley SourceMeters repair and calibration update](https://xdevs.com/fix/kei2400pp/) |
-| [Tektronix THM565 "TekMeter"](thm565-snb090062/) | B090062 | Capacitor replacement on the main board (draft - fault write-up pending); also documents the 067-1446-99 firmware fixture used with [THM565-Flash](https://github.com/Cyclotronic/THM565-Flash) | Draft |
+| [Tektronix THM565 "TekMeter"](thm565-snb090062/index.md) | B090062 | Leaking electrolytic capacitors on the main board, dim EL backlight, firmware 0.54; builds the 067-1446-99 fixture and documents the serial command table and the firmware 2.0 flash result behind [THM565-Flash](https://github.com/Cyclotronic/THM565-Flash) | Draft |
 
 Photos are full resolution. Each figure in an article shows a thumbnail
 (`name_1.jpg`) that links to the original (`name.jpg`).
